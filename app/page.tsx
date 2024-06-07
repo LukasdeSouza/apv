@@ -128,7 +128,7 @@ export default function Home() {
           <div className="mx-auto max-w-2xl py-24 sm:py-24 lg:py-24">
             <div className="hidden sm:mb-8 sm:flex sm:justify-center">
               <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-                somente para Dev's Iniciantes.{' '}
+                somente para Devs Iniciantes.{' '}
                 <a href="https://pay.kiwify.com.br/NG9sVjp" className="font-semibold text-indigo-600">
                   <span className="absolute inset-0" aria-hidden="true" />
                   Quero participar
