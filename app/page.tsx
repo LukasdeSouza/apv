@@ -131,7 +131,7 @@ export default function Home() {
                 somente para Dev's Iniciantes.{' '}
                 <a href="https://pay.kiwify.com.br/NG9sVjp" className="font-semibold text-indigo-600">
                   <span className="absolute inset-0" aria-hidden="true" />
-                  Quero participar <span aria-hidden="true">&rarr;</span>
+                  Quero participar
                 </a>
               </div>
             </div>
