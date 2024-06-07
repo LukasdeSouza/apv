@@ -1,4 +1,5 @@
 import { CheckIcon } from '@heroicons/react/20/solid'
+import TypingAnimation from './magicui/typing-animation'
 
 const includedFeatures = [
   ' Tenha acesso as calls, mentorias ao vivo, correção de CV, Linkedin',
@@ -44,7 +45,8 @@ export default function Pricing() {
               <div className="mx-auto max-w-xs px-8">
                 <p className="text-base font-semibold text-gray-600">Pague uma vez, acesse sempre</p>
                 <p className="mt-6 flex items-baseline justify-center gap-x-2">
-                  <span className="text-5xl font-bold tracking-tight text-gray-900">R$297.99</span>
+                  <TypingAnimation text='R$297.99' duration={200}/>
+                  {/* <span className="text-5xl font-bold tracking-tight text-gray-900">R$297.99</span> */}
                   <span className="text-sm font-semibold leading-6 tracking-wide text-gray-600">BRL</span>
                 </p>
                 <a
