@@ -46,7 +46,7 @@ export default function About() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">Quem irá te ensinar ?</h2>
-          <p className="mt-6 text-lg leading-8 text-gray-300">
+          <p className="mt-6 font-light text-base leading-8 text-gray-300">
             Lucas Silva, programador a diversos anos, com experiência em desenvolvimento fullstack. Já atuou como professor de Programação Web no SENAC MG, ensinando Web Design e Programação para alunos de diferentes faixas etárias, além de ensinar a profissão de programador para muitos iniciantes.
           </p>
         </div>

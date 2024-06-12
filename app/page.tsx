@@ -20,7 +20,7 @@ export default function Home() {
 
   return (
     <>
-      <div className="bg-white">
+      <div className="bg-black">
         <header className="absolute inset-x-0 top-0 z-50">
           <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
             <div className="flex lg:flex-1">
@@ -58,7 +58,7 @@ export default function Home() {
           </nav>
           <Dialog className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
             <div className="fixed inset-0 z-50" />
-            <DialogPanel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+            <DialogPanel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-gray-900 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
               <div className="flex items-center justify-between">
                 <a href="#" className="-m-1.5 p-1.5">
                   <span className="sr-only">Your Company</span>
@@ -128,30 +128,30 @@ export default function Home() {
           </div>
           <div className="mx-auto max-w-2xl py-24 sm:py-24 lg:py-24">
             <div className="hidden sm:mb-8 sm:flex sm:justify-center">
-              <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
+              <div className="relative rounded-full px-3 py-1 font-light text-sm leading-6 text-slate-400 ring-1 ring-gray-400/10 hover:ring-gray-400/20">
                 somente para Devs Iniciantes.{' '}
-                <a href="https://pay.kiwify.com.br/NG9sVjp" className="font-semibold text-indigo-600">
+                <a href="https://pay.kiwify.com.br/NG9sVjp" className="font-semibold text-purple-600">
                   <span className="absolute inset-0" aria-hidden="true" />
                   Quero participar
                 </a>
               </div>
             </div>
             <div className="text-center">
-              <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-                Programador, tá na hora da Primeira Vaga
+              <h1 className="text-4xl font-bold tracking-tight text-slate-200 sm:text-6xl">
+                Programador, ainda não conseguiur sua Primeira Vaga?
               </h1>
-              <p className="mt-6 text-lg leading-8 text-gray-600">
-                já pensou em ser auxiliado em todas as etapas, até você conseguir sua primeira vaga? Isso que faremos no Método ATP. Mock Interviews, projetos, Github, Linkedin, Currículo, candidaturas, vamos te ensinar todo o processo, até você conseguir sua primeira vaga.
+              <p className="mt-6 font-light text-base leading-8 text-slate-300">
+                chega de normalizar demorar tanto pra conseguir sua primeira vaga. Provavelmente você está perdendo tempo com conteúdos que não fazem sentido, e não tem avançado nos estudos. Bora mudar isso ?
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <a
                   href="https://pay.kiwify.com.br/NG9sVjp"
                   onClick={handleClickBuy}
-                  className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                  className="rounded-md bg-purple-600 px-3.5 py-2.5 text-sm font-semibold text-slate-200 shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 min-w-36"
                 >
                   Eu Quero!
                 </a>
-                <a href="https://vimeo.com/952720569?share=copy" target='_blank' className="text-sm font-semibold leading-6 text-gray-900">
+                <a href="https://vimeo.com/952720569?share=copy" target='_blank' className="text-sm font-semibold leading-6 font-light text-slate-400">
                   Saiba Mais <span aria-hidden="true">→</span>
                 </a>
               </div>
