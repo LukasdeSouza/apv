@@ -46,7 +46,7 @@ export default function Pricing() {
               <div className="mx-auto max-w-xs px-8">
                 <p className="text-lg font-semibold text-slate-400">Pague uma vez, acesse sempre</p>
                 <span className='text-xs font-light text-slate-500 '>vai ter acesso a tudo, projetos, aulas, mentorias, e mais</span>
-                  <TypingAnimation className="mt-6 text-slate-200 flex items-baseline justify-center gap-x-2" text='R$297.99 BRL' duration={200}/>
+                  <TypingAnimation className="mt-6 text-slate-200 flex items-baseline justify-center gap-x-2" text='R99.97 BRL' duration={200}/>
                 <a
                   href="https://pay.kiwify.com.br/P8RAJyU"
                   className="mt-10 block w-full rounded-md bg-purple-600 px-3 py-2 text-center text-sm font-semibold text-white shadow-sm hover:bg-purple-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-purple-600"
