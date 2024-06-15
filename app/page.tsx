@@ -131,7 +131,7 @@ export default function Home() {
             <div className="hidden sm:mb-8 sm:flex sm:justify-center">
               <div className="relative rounded-full px-3 py-1 font-light text-sm leading-6 text-slate-400 ring-1 ring-gray-400/10 hover:ring-gray-400/20">
                 somente para Devs Iniciantes.{' '}
-                <a href="https://pay.kiwify.com.br/NG9sVjp" className="font-semibold text-purple-600">
+                <a href="https://pay.kiwify.com.br/P8RAJyU" className="font-semibold text-purple-600">
                   <span className="absolute inset-0" aria-hidden="true" />
                   Quero participar
                 </a>
@@ -146,7 +146,7 @@ export default function Home() {
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <a
-                  href="https://pay.kiwify.com.br/NG9sVjp"
+                  href="https://pay.kiwify.com.br/P8RAJyU"
                   onClick={handleClickBuy}
                   className="rounded-md bg-purple-600 px-3.5 py-2.5 text-sm font-semibold text-slate-200 shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 min-w-36"
                 >

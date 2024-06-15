@@ -27,7 +27,7 @@ export default function CTA() {
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
               <a
-                href="https://pay.kiwify.com.br/NG9sVjp"
+                href="https://pay.kiwify.com.br/P8RAJyU"
                 className="rounded-md bg-purple-800 px-3.5 py-2.5 text-sm font-semibold text-slate-200 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
               >
                 Tô Dentro
