@@ -2,10 +2,10 @@ import { CheckIcon } from '@heroicons/react/20/solid'
 import TypingAnimation from './magicui/typing-animation'
 
 const includedFeatures = [
-  ' Tenha acesso as calls, mentorias ao vivo, correção de CV, Linkedin',
-  'dicas profissionais, acompanhamento individual',
-  ' projetos individuas e em equipe, por tempo integral',
-  'além de ebooks e aulas gravadas',
+  'Calls mensais, correção de currículo e Linkedin',
+  ' acompanhamento individual, parasua evolução de verdade',
+  ' projetos RELEVANTES individuas e em equipe',
+  'aulas gravas e conteúdo técnico para front e backend',
 ]
 
 export default function Pricing() {
@@ -24,7 +24,9 @@ export default function Pricing() {
             <p className="mt-6 text-xl font-bold leading-7 text-slate-200">
               MÉTODO APV - Até a Primeira Vaga
             </p>
-            <span className='text-xs font-light text-slate-400'>a melhor metodologia pra você conseguir sua primeira vaga como programador de uma vez por todas</span>
+            <span className='text-xs font-light text-slate-400'>
+              reuniões MENSAIS, projetos em equipe, correção de currículo, aprimoramento de linkedin, entendendo de candidatura, aprimorando seu conhecimento técnioc, programando projetos RELEVANTES em equipe. 
+              a melhor metodologia pra você conseguir sua primeira vaga como programador de uma vez por todas</span>
             <div className="mt-10 flex items-center gap-x-4">
               <h4 className="flex-none text-sm font-semibold leading-6 text-purple-600">O que está incluso?</h4>
               <div className="h-px flex-auto bg-gray-700" />
@@ -44,8 +46,8 @@ export default function Pricing() {
           <div className="-mt-2 p-2 lg:mt-0 lg:w-full lg:max-w-md lg:flex-shrink-0">
             <div className="rounded-2xl bg-gray-900 py-10 text-center ring-1 ring-inset ring-gray-900/5 lg:flex lg:flex-col lg:justify-center lg:py-16">
               <div className="mx-auto max-w-xs px-8">
-                <p className="text-lg font-semibold text-slate-400">Pague uma vez, acesse sempre</p>
-                <span className='text-xs font-light text-slate-500 '>vai ter acesso a tudo, projetos, aulas, mentorias, e mais</span>
+                <p className="text-lg font-semibold text-slate-400">Ideal pra você</p>
+                <span className='text-xs font-light text-slate-500 '>tenha acesso a projetos, aulas técnicas e de soft skills, mentoria MENSAL, revisão de currículo e linkedin, e muuito mais!</span>
                   <TypingAnimation className="mt-6 text-slate-200 flex items-baseline justify-center gap-x-2" text='R299.97 BRL' duration={200}/>
                 <a
                   href="https://pay.kiwify.com.br/NG9sVjp"
@@ -53,7 +55,7 @@ export default function Pricing() {
                 >
                   Ter acesso eterno!
                 </a>
-                <p className="mt-6 text-xs font-light leading-5 text-slate-600">
+                <p className="mt-6 text-xs font-light leading-5 text-slate-400">
                  ✅ Garantia de 7 dias úteis para reembolso, sem letras miúdas *
                 </p>
               </div>

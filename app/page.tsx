@@ -142,7 +142,7 @@ export default function Home() {
                 Programador, ainda não conseguiur sua Primeira Vaga?
               </h1>
               <p className="mt-6 font-light text-base leading-8 text-slate-300">
-                chega de normalizar demorar tanto pra conseguir sua primeira vaga. Provavelmente você está perdendo tempo com conteúdos que não fazem sentido, e não tem avançado nos estudos. Bora mudar isso ?
+                chega de normalizar demorar tanto pra conseguir sua vaga. Tem perdido tempo com conteúdos que não fazem sentido, e não tem avançado nos estudos ? Bora mudar isso !
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <a

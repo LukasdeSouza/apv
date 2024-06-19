@@ -29,7 +29,7 @@ export default function Section() {
               <h2 className="text-base font-semibold leading-7 text-purple-600">o que você vai aprender:</h2>
               <p className="mt-2 text-3xl font-bold tracking-tight text-slate-300 sm:text-4xl">Um caminho correto</p>
               <p className="mt-2 font-light text-base leading-8 text-slate-400">
-                O mercado de tecnologia está concorrido mas com certeza a maioria da galera não terá a vantagem que você vai ter.
+                Mesmo se você for iniciante, aprenda a ir pelo caminho certo
               </p>
               <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 font-light text-slate-400 lg:max-w-none">
                 {features.map((feature) => (
