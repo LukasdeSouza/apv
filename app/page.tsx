@@ -141,7 +141,7 @@ export default function Home() {
               {/* <h1 className="text-3xl font-bold tracking-tight text-slate-200 sm:text-6xl">
                 Levante um dinheiro rápido, sendo Programador
               </h1> */}
-              <iframe width="100%" height="405" src="https://www.youtube.com/embed/3UuISvk2qnI?si=U9m_ZoB305AnBTTN&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <iframe width="100%" height="405" src="https://www.youtube.com/embed/3UuISvk2qnI?si=U9m_ZoB305AnBTTN&amp;controls=0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
               {/* <p className="mt-6 font-light text-base leading-8 text-slate-300">
                 chega de normalizar demorar tanto pra conseguir sua vaga. Tem perdido tempo com conteúdos que não fazem sentido, e não tem avançado nos estudos ? Bora mudar isso !
               </p> */}
