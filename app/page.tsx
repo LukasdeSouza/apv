@@ -130,16 +130,16 @@ export default function Home() {
           <div className="mx-auto max-w-2xl py-24 sm:py-24 lg:py-24">
             <div className="hidden sm:mb-8 sm:flex sm:justify-center">
               <div className="relative rounded-full px-3 py-1 font-light text-sm leading-6 text-slate-400 ring-1 ring-gray-400/10 hover:ring-gray-400/20">
-                somente para Devs Iniciantes.{' '}
+                para high code, low code e no code.{' '}
                 <a href="https://pay.kiwify.com.br/NG9sVjp" className="font-semibold text-purple-600">
                   <span className="absolute inset-0" aria-hidden="true" />
                   Quero participar
                 </a>
               </div>
             </div>
-            <div className="text-center">
+            <div className="flex flex-col items-center justify-center text-center">
               <h1 className="text-4xl font-bold tracking-tight text-slate-200 sm:text-6xl">
-                Programador, ainda não conseguiur sua Primeira Vaga?
+                Levante um dinheiro rápido, sendo Programador
               </h1>
               <p className="mt-6 font-light text-base leading-8 text-slate-300">
                 chega de normalizar demorar tanto pra conseguir sua vaga. Tem perdido tempo com conteúdos que não fazem sentido, e não tem avançado nos estudos ? Bora mudar isso !
