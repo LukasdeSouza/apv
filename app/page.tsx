@@ -22,17 +22,17 @@ export default function Home() {
   return (
     <>
       <div className="bg-black">
-        <header className="absolute inset-x-0 top-0 z-50">
+        {/* <header className="absolute inset-x-0 top-0 z-50">
           <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
             <div className="flex lg:flex-1">
-              {/* <a href="#" className="-m-1.5 p-1.5">
+              <a href="#" className="-m-1.5 p-1.5">
                 <span className="sr-only">@deveprogramar</span>
                 <img
                   className="h-8 w-auto"
                   src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
                   alt=""
                 />
-              </a> */}
+              </a>
             </div>
             <div className="flex lg:hidden">
               <button
@@ -51,11 +51,11 @@ export default function Home() {
                 </a>
               ))}
             </div>
-            {/* <div className="hidden lg:flex lg:flex-1 lg:justify-end">
+            <div className="hidden lg:flex lg:flex-1 lg:justify-end">
               <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
                 Log in <span aria-hidden="true">&rarr;</span>
               </a>
-            </div> */}
+            </div>
           </nav>
           <Dialog className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
             <div className="fixed inset-0 z-50" />
@@ -80,7 +80,7 @@ export default function Home() {
               </div>
               <div className="mt-6 flow-root">
                 <div className="-my-6 divide-y divide-gray-500/10">
-                  {/* <div className="space-y-2 py-6">
+                  <div className="space-y-2 py-6">
                     {navigation.map((item) => (
                       <a
                         key={item.name}
@@ -90,7 +90,7 @@ export default function Home() {
                         {item.name}
                       </a>
                     ))}
-                  </div> */}
+                  </div>
                   <div className="py-6">
                     <p>Redes Sociais:</p>
                     <a
@@ -112,9 +112,9 @@ export default function Home() {
               </div>
             </DialogPanel>
           </Dialog>
-        </header>
+        </header> */}
 
-        <div className="relative isolate px-6 pt-14 lg:px-8">
+        <div className="relative isolate px-6 lg:px-8">
           <div
             className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
             aria-hidden="true"
@@ -127,23 +127,24 @@ export default function Home() {
               }}
             />
           </div>
-          <div className="mx-auto max-w-2xl py-24 sm:py-24 lg:py-24">
+          <div className="mx-auto max-w-2xl py-8 sm:py-8 lg:py-12">
             <div className="hidden sm:mb-8 sm:flex sm:justify-center">
               <div className="relative rounded-full px-3 py-1 font-light text-sm leading-6 text-slate-400 ring-1 ring-gray-400/10 hover:ring-gray-400/20">
-                somente para Devs Iniciantes.{' '}
+                para high code, low code e no code.{' '}
                 <a href="https://pay.kiwify.com.br/NG9sVjp" className="font-semibold text-purple-600">
                   <span className="absolute inset-0" aria-hidden="true" />
                   Quero participar
                 </a>
               </div>
             </div>
-            <div className="text-center">
-              <h1 className="text-4xl font-bold tracking-tight text-slate-200 sm:text-6xl">
-                Programador, ainda não conseguiur sua Primeira Vaga?
-              </h1>
-              <p className="mt-6 font-light text-base leading-8 text-slate-300">
+            <div className="flex flex-col items-center justify-center text-center">
+              {/* <h1 className="text-3xl font-bold tracking-tight text-slate-200 sm:text-6xl">
+                Levante um dinheiro rápido, sendo Programador
+              </h1> */}
+              <iframe width="100%" height="405" src="https://www.youtube.com/embed/3UuISvk2qnI?si=U9m_ZoB305AnBTTN&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              {/* <p className="mt-6 font-light text-base leading-8 text-slate-300">
                 chega de normalizar demorar tanto pra conseguir sua vaga. Tem perdido tempo com conteúdos que não fazem sentido, e não tem avançado nos estudos ? Bora mudar isso !
-              </p>
+              </p> */}
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <a
                   href="https://pay.kiwify.com.br/NG9sVjp"
@@ -152,14 +153,14 @@ export default function Home() {
                 >
                   Eu Quero!
                 </a>
-                <a href="https://vimeo.com/952720569?share=copy" target='_blank' className="text-sm font-semibold leading-6 font-light text-slate-400">
+                <a href="https://vimeo.com/952720569?share=copy" target='_blank' className="text-sm leading-6 font-light text-slate-400">
                   Saiba Mais <span aria-hidden="true">→</span>
                 </a>
               </div>
             </div>
           </div>
-          <ContactForm/>
-          <div
+          {/* <ContactForm/> */}
+          {/* <div
             className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
             aria-hidden="true"
           >
@@ -170,12 +171,12 @@ export default function Home() {
                   'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
               }}
             />
-          </div>
+          </div> */}
         </div>
       </div>
-      <Section/>
-      <Pricing/>
-      <CTA/>
+      {/* <Section/> */}
+      {/* <Pricing/> */}
+      {/* <CTA/> */}
       <About/>
     </>
   )
