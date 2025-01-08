@@ -3,13 +3,13 @@ const links = [
   // { name: 'Github', href: 'https://github.com/LukasdeSouza' },
   // { name: 'Instagram', href: 'https://www.instagram.com/deveprogramar/' },
   // { name: 'TikTok', href: 'https://www.tiktok.com/@deveprogramar' },
-]
+];
 const stats = [
-  { name: 'Offices worldwide', value: '12' },
-  { name: 'Full-time colleagues', value: '300+' },
-  { name: 'Hours per week', value: '40' },
-  { name: 'Paid time off', value: 'Unlimited' },
-]
+  { name: "Offices worldwide", value: "12" },
+  { name: "Full-time colleagues", value: "300+" },
+  { name: "Hours per week", value: "40" },
+  { name: "Paid time off", value: "Unlimited" },
+];
 
 export default function About() {
   return (
@@ -27,7 +27,7 @@ export default function About() {
           className="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-20"
           style={{
             clipPath:
-              'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
+              "polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)",
           }}
         />
       </div>
@@ -39,15 +39,22 @@ export default function About() {
           className="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-20"
           style={{
             clipPath:
-              'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
+              "polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)",
           }}
         />
       </div>
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
-          <h2 className="text-4xl font-bold tracking-tight text-white sm:text-4xl">Quem irá te ensinar ?</h2>
+          <h2 className="text-4xl font-bold tracking-tight text-white sm:text-4xl">
+            Quem irá te ensinar ?
+          </h2>
           <p className="mt-6 font-light text-base leading-8 text-gray-300">
-            Lucas Silva, programador a diversos anos, com experiência em desenvolvimento fullstack. Já atuou como professor de Programação Web no SENAC MG, ensinando Web Design e Programação para alunos de diferentes faixas etárias, além de ensinar a profissão de programador para muitos iniciantes.
+            Lucas Silva, programador há diversos anos, com experiência em
+            desenvolvimento Fullstack. Já atuei como professor de Programação
+            Web no SENAC MG, unidade de Uberlândia, ensinando Web Design e
+            Programação para alunos de diferentes faixas etárias, além de
+            ensinar a profissão de programador para muitos iniciantes.
+            Hoje atuo como Fullstack utilizando AWS, Nest, NextJs, ReactJs, MySQL, entre outras tecnologias
           </p>
         </div>
         <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
@@ -69,5 +76,5 @@ export default function About() {
         </div>
       </div>
     </div>
-  )
+  );
 }

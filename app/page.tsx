@@ -1,23 +1,23 @@
-"use client"
-import { useState } from 'react'
-import { Dialog, DialogPanel } from '@headlessui/react'
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
-import Section from './components/Section'
-import Pricing from './components/Pricing'
-import About from './components/About'
-import CTA from './components/CTA'
-import { handleClickBuy } from './utils/handleClickBuy'
-import { ContactForm } from './components/ContactForm'
+"use client";
+import { useState } from "react";
+import { Dialog, DialogPanel } from "@headlessui/react";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import Section from "./components/Section";
+import Pricing from "./components/Pricing";
+import About from "./components/About";
+import CTA from "./components/CTA";
+import { handleClickBuy } from "./utils/handleClickBuy";
+import { ContactForm } from "./components/ContactForm";
 
 const navigation = [
-  { name: '', href: '#' },
-  { name: '', href: '#' },
-  { name: '', href: '#' },
-  { name: '', href: '#' },
-]
+  { name: "", href: "#" },
+  { name: "", href: "#" },
+  { name: "", href: "#" },
+  { name: "", href: "#" },
+];
 
 export default function Home() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
     <>
@@ -123,15 +123,18 @@ export default function Home() {
               className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
               style={{
                 clipPath:
-                  'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
+                  "polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)",
               }}
             />
           </div>
           <div className="mx-auto max-w-2xl py-8 sm:py-8 lg:py-12">
             <div className="hidden sm:mb-8 sm:flex sm:justify-center">
               <div className="relative rounded-full px-3 py-1 font-light text-sm leading-6 text-slate-400 ring-1 ring-gray-400/10 hover:ring-gray-400/20">
-                para high code, low code e no code.{' '}
-                <a href="https://pay.kiwify.com.br/NG9sVjp" className="font-semibold text-purple-600">
+                para high code, low code e no code.{" "}
+                <a
+                  href="https://pay.kiwify.com.br/NG9sVjp"
+                  className="font-semibold text-purple-600"
+                >
                   <span className="absolute inset-0" aria-hidden="true" />
                   Quero participar
                 </a>
@@ -141,7 +144,15 @@ export default function Home() {
               {/* <h1 className="text-3xl font-bold tracking-tight text-slate-200 sm:text-6xl">
                 Levante um dinheiro rápido, sendo Programador
               </h1> */}
-              <iframe width="100%" height="405" src="https://www.youtube.com/embed/3UuISvk2qnI?si=U9m_ZoB305AnBTTN&amp;controls=0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+              <iframe
+                width="100%"
+                height="405"
+                src="https://www.youtube.com/embed/3UuISvk2qnI?si=U9m_ZoB305AnBTTN&amp;controls=0"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen
+              ></iframe>
               {/* <p className="mt-6 font-light text-base leading-8 text-slate-300">
                 chega de normalizar demorar tanto pra conseguir sua vaga. Tem perdido tempo com conteúdos que não fazem sentido, e não tem avançado nos estudos ? Bora mudar isso !
               </p> */}
@@ -153,7 +164,11 @@ export default function Home() {
                 >
                   Eu Quero!
                 </a>
-                <a href="https://vimeo.com/952720569?share=copy" target='_blank' className="text-sm leading-6 font-light text-slate-400">
+                <a
+                  href="https://vimeo.com/952720569?share=copy"
+                  target="_blank"
+                  className="text-sm leading-6 font-light text-slate-400"
+                >
                   Saiba Mais <span aria-hidden="true">→</span>
                 </a>
               </div>
@@ -177,7 +192,7 @@ export default function Home() {
       {/* <Section/> */}
       {/* <Pricing/> */}
       {/* <CTA/> */}
-      <About/>
+      <About />
     </>
-  )
+  );
 }
