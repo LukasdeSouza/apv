@@ -89,7 +89,7 @@ export function Testimonials() {
                   </svg>
                 ))}
               </div>
-              <span className="text-gray-300">4.9/5 baseado em 247 avaliações</span>
+              <span className="text-gray-300">4.9/5 baseado em diversas avaliações</span>
             </div>
           </div>
         </div>

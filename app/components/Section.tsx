@@ -65,7 +65,8 @@ export default function Section() {
                   🚀 Iniciar Transformação Agora
                 </a>
                 <button
-                  onClick={() => document.getElementById('agendamento')?.scrollIntoView({behavior: 'smooth'})}
+                  // onClick={() => document.getElementById('agendamento')?.scrollIntoView({behavior: 'smooth'})}
+                  onClick={() => window.open("https://calendly.com/lucasdesouzasilva112/apv-consultoria-gratuita", "_blank")}
                   className="px-8 py-4 text-lg font-semibold text-gray-300 border border-gray-700 rounded-xl hover:bg-gray-800/50 transition-colors"
                 >
                   📅 Agendar Consultoria Gratuita
