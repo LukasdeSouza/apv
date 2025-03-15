@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 export function Testimonials() {
     const testimonials = [
       {
@@ -39,7 +41,7 @@ export function Testimonials() {
                 className="relative bg-gray-800 p-8 rounded-2xl shadow-xl hover:transform hover:-translate-y-2 transition-all duration-300"
               >
                 <div className="absolute top-0 left-8 -translate-y-6 w-12 h-12 rounded-full overflow-hidden border-2 border-purple-500">
-                  <img
+                  <Image
                     src={testimonial.photo}
                     alt={testimonial.name}
                     className="w-full h-full object-cover"
@@ -57,7 +59,7 @@ export function Testimonials() {
                 </div>
   
                 <p className="text-gray-300 mb-6 leading-relaxed">
-                  "{testimonial.text}"
+                  {testimonial.text}
                 </p>
   
                 <div className="border-t border-gray-700 pt-4">

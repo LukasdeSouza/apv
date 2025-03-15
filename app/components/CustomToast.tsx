@@ -1,4 +1,5 @@
 'use client'
+import Image from 'next/image'
 import React from 'react'
 import toast from 'react-hot-toast'
 
@@ -13,7 +14,7 @@ const CustomToast = () => {
         <div className="flex-1 w-0 p-4">
           <div className="flex items-start">
             <div className="flex-shrink-0 pt-0.5">
-              <img
+              <Image
                 className="h-10 w-10 rounded-full"
                 src="https://avatars.githubusercontent.com/u/99886292?v=4"
                 alt=""

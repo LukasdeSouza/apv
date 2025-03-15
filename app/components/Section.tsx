@@ -1,4 +1,5 @@
 import { BriefcaseIcon, ChartBarIcon, UserGroupIcon } from '@heroicons/react/20/solid'
+import Image from 'next/image'
 
 const features = [
   {
@@ -76,7 +77,7 @@ export default function Section() {
           {/* Seção de Imagem */}
           <div className="relative lg:pl-8">
             <div className="relative aspect-[1.1] w-full rounded-3xl shadow-2xl overflow-hidden border border-gray-800/50">
-              <img
+              <Image
                 src="https://images.pexels.com/photos/7775639/pexels-photo-7775639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                 alt="Alunos comemorando contratação"
                 className="h-full w-full object-cover transform hover:scale-105 transition-transform duration-300"

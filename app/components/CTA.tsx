@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function CTA() {
   return (
     <div className="bg-black">
@@ -38,7 +40,7 @@ export default function CTA() {
             </div>
           </div>
           <div className="relative mt-16 h-80 lg:mt-8">
-            <img
+            <Image
               className="absolute left-0 top-0 w-[57rem] max-w-none rounded-md bg-white/5 ring-1 ring-white/10"
               src="https://images.pexels.com/photos/360591/pexels-photo-360591.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
               alt="App screenshot"
