@@ -1,10 +1,20 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     images: {
-      domains: [
-        'images.pexels.com', // Domínio anterior
-        'randomuser.me'      // Novo domínio necessário
-      ],
+      remotePatterns: [
+        {
+          protocol: 'https',
+          hostname: 'images.pexels.com',
+        },
+        {
+          protocol: 'https',
+          hostname: 'randomuser.me',
+        },
+        {
+          protocol: 'https',
+          hostname: 'media.licdn.com',
+        },
+      ]
     },
   };
 

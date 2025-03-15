@@ -4,10 +4,12 @@ import About from "./components/About"
 import { FAQ } from "./components/FAQ"
 import Pricing from "./components/Pricing"
 import Section from "./components/Section"
-import { Testimonials } from "./components/Testimonials"
+import  Testimonials  from "./components/Testimonials"
 import { Dialog, DialogPanel } from "@headlessui/react"
 import { Bars3Icon, PlayCircleIcon, XMarkIcon } from "@heroicons/react/24/outline"
 import JotformChat from "./components/JotFormChat"
+// import { TestimonialsNOSSR } from "./components/TestimonialsNoSSR"
+// import { TestimonialNoSSR } from "./components/TestimonialsNoSSR"
 
 const navigation = [
   { name: 'Como Funciona', href: '#metodo' },
