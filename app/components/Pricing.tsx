@@ -29,8 +29,8 @@ export default function Pricing() {
           </h2>
           <p className="mt-6 text-lg leading-8 text-gray-300 max-w-3xl mx-auto">
             Programa completo com suporte individual + acesso vitalício à plataforma. Comece hoje e pague
-            <span className="line-through opacity-50 mx-1">R$997</span>
-            <span className="text-purple-400 font-bold">R$299,97</span>
+            <span className="line-through opacity-50 mx-1">R$2997</span>
+            <span className="text-purple-400 font-bold">R$997,75</span>
           </p>
         </div>
 
@@ -120,8 +120,8 @@ export default function Pricing() {
                 <div className="flex items-center justify-center gap-2 mb-6">
                   <span className="text-4xl font-bold text-white">12x</span>
                   <div className="text-left">
-                    <span className="text-2xl font-bold text-purple-400">R$299,97</span>
-                    <p className="text-xs text-gray-400 mt-1">ou R$2.997 à vista</p>
+                    <span className="text-2xl font-bold text-purple-400">R$100,18</span>
+                    <p className="text-xs text-gray-400 mt-1">ou R$997,75 à vista</p>
                   </div>
                 </div>
 
@@ -156,7 +156,7 @@ export default function Pricing() {
                   <div className="space-y-2">
                     <QrCodeIcon className="mx-auto h-10 w-10 text-purple-400" />
                     <div className="text-sm font-medium text-gray-300">PIX</div>
-                    <div className="text-xs text-gray-500">5% de desconto</div>
+                    <div className="text-xs text-gray-500">Facilidade na Compra</div>
                   </div>
                 </div>
               </div>
