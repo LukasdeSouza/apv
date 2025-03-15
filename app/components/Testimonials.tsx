@@ -44,6 +44,8 @@ export function Testimonials() {
                   <Image
                     src={testimonial.photo}
                     alt={testimonial.name}
+                    width={48}
+                    height={48}
                     className="w-full h-full object-cover"
                   />
                 </div>

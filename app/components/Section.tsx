@@ -80,6 +80,8 @@ export default function Section() {
               <Image
                 src="https://images.pexels.com/photos/7775639/pexels-photo-7775639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                 alt="Alunos comemorando contratação"
+                width={1260}  // Adicione a largura real da imagem
+                height={750}   // Adicione a altura real da imagem
                 className="h-full w-full object-cover transform hover:scale-105 transition-transform duration-300"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-gray-900/90 via-gray-900/40 to-transparent" />
