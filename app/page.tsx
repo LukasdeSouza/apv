@@ -202,7 +202,7 @@ export default function Home() {
             <div className="space-y-4">
               <h5 className="text-sm font-semibold text-purple-400">Contato</h5>
               <div className="flex flex-col space-y-2">
-                <a href="lucas@ateaprimeiravaga.online" className="text-gray-400 hover:text-purple-300 transition-colors">
+                <a href="mailto:lucas@ateaprimeiravaga.online" className="text-gray-400 hover:text-purple-300 transition-colors">
                 lucas@ateaprimeiravaga.online
                 </a>
                 <div className="flex space-x-4 mt-2">
@@ -232,7 +232,7 @@ export default function Home() {
         </div>
       </footer>
 
-      <JotformChat />
+      {/* <JotformChat /> */}
     </>
   )
 }
