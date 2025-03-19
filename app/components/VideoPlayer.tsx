@@ -74,7 +74,7 @@ export default function VideoPlayer() {
           <button 
             className="bg-purple-500/90 hover:bg-purple-400 text-white px-5 py-2.5 rounded-lg backdrop-blur-sm transition-all 
             transform hover:scale-105 shadow-lg hover:shadow-purple-500/30 flex items-center gap-2"
-            onClick={() => alert('Ação personalizada!')}
+            onClick={() => window.open("https://pay.kiwify.com.br/udR1e9H", "_blank")}
           >
             <span>Quero Participar</span>
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
