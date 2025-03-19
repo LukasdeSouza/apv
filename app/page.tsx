@@ -8,6 +8,7 @@ import  Testimonials  from "./components/Testimonials"
 import { Dialog, DialogPanel } from "@headlessui/react"
 import { Bars3Icon, PlayCircleIcon, XMarkIcon } from "@heroicons/react/24/outline"
 import JotformChat from "./components/JotFormChat"
+import VideoPlayer from "./components/VideoPlayer"
 // import { TestimonialsNOSSR } from "./components/TestimonialsNoSSR"
 // import { TestimonialNoSSR } from "./components/TestimonialsNoSSR"
 
@@ -30,13 +31,13 @@ export default function Home() {
             {/* Logo */}
             <div className="flex lg:flex-1">
               <a href="#" className="-m-1.5 p-1.5">
-                <span className="text-2xl font-bold text-purple-500">APV</span>
                 <span className="text-2xl font-bold text-white">Método</span>
+                <span className="text-2xl font-bold text-purple-500">APV</span>
               </a>
             </div>
 
             {/* Menu Desktop */}
-            <div className="hidden lg:flex lg:gap-x-12">
+            {/* <div className="hidden lg:flex lg:gap-x-12">
               {navigation.map((item) => (
                 <a
                   key={item.name}
@@ -46,17 +47,17 @@ export default function Home() {
                   {item.name}
                 </a>
               ))}
-            </div>
+            </div> */}
 
             {/* CTA Desktop */}
-            <div className="hidden lg:flex lg:flex-1 lg:justify-end">
+            {/* <div className="hidden lg:flex lg:flex-1 lg:justify-end">
               <a
                 href="#investimento"
                 className="text-sm font-semibold leading-6 text-white bg-purple-600 px-6 py-3 rounded-lg hover:bg-purple-700"
               >
                 Quero Minha Vaga
               </a>
-            </div>
+            </div> */}
 
             {/* Mobile Menu Button */}
             <div className="flex lg:hidden">
@@ -86,7 +87,7 @@ export default function Home() {
               </div>
               <div className="mt-6 flow-root">
                 <div className="-my-6 divide-y divide-gray-500/25">
-                  <div className="space-y-2 py-6">
+                  {/* <div className="space-y-2 py-6">
                     {navigation.map((item) => (
                       <a
                         key={item.name}
@@ -96,15 +97,15 @@ export default function Home() {
                         {item.name}
                       </a>
                     ))}
-                  </div>
-                  <div className="py-6">
+                  </div> */}
+                  {/* <div className="py-6">
                     <a
                       href="#investimento"
                       className="-mx-3 block rounded-lg bg-purple-600 px-3 py-2.5 text-base font-semibold text-white text-center hover:bg-purple-700"
                     >
                       Quero Minha Vaga
                     </a>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </DialogPanel>
@@ -115,21 +116,22 @@ export default function Home() {
         <div className="relative isolate px-6 pt-32 lg:px-8">
           <div className="absolute inset-0 z-[-1] bg-gradient-to-r from-purple-900/20 via-gray-900 to-purple-900/20 animate-gradient-pulse" />
 
-          <div className="mx-auto max-w-3xl text-center">
+          <div className="mx-auto max-w-3xl text-center pb-12">
             <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-300 text-transparent">
               Sua Carreira Tech Começa Aqui
             </h1>
 
             {/* Video Section */}
-            <div className="mt-12 group relative aspect-video bg-gray-900 rounded-2xl overflow-hidden shadow-2xl hover:shadow-purple-500/20 transition-shadow">
+            {/* <div className="mt-12 group relative aspect-video bg-gray-900 rounded-2xl overflow-hidden shadow-2xl hover:shadow-purple-500/20 transition-shadow">
               <div className="absolute inset-0 bg-gradient-to-t from-purple-500/10 to-transparent" />
               <button className="absolute inset-0 flex items-center justify-center">
                 <PlayCircleIcon className="h-20 w-20 text-purple-400 opacity-90 group-hover:opacity-100 group-hover:scale-110 transition-all" />
               </button>
-            </div>
+            </div> */}
+            <VideoPlayer/>
 
             {/* CTAs */}
-            <div className="mt-12 flex flex-col sm:flex-row items-center justify-center gap-4">
+            {/* <div className="mt-12 flex flex-col sm:flex-row items-center justify-center gap-4 pb-4">
               <a
                 href="#investimento"
                 className="relative overflow-hidden px-8 py-4 text-lg font-bold text-white bg-gradient-to-br from-purple-600 to-purple-800 rounded-xl hover:shadow-purple-500/30 hover:scale-[1.02] transition-all"
@@ -137,27 +139,27 @@ export default function Home() {
                 <span className="relative z-10">Iniciar Jornada Agora</span>
                 <div className="absolute inset-0 bg-gradient-to-r from-white/10 to-transparent opacity-0 hover:opacity-20 transition-opacity" />
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
 
       {/* Seções seguintes mantidas com componentes otimizados */}
-      <Section />
+      {/* <Section />
       <Testimonials />
       <Pricing />
       <FAQ />
-      <About />
+      <About /> */}
 
       {/* Footer CTA */}
-      <footer className="bg-gradient-to-b from-slate-900 to-purple-900/20 border-t border-purple-900/30">
+      <footer className="bg-gradient-to-b from-slate-900 to-purple-900 border-t border-purple-900/30">
         <div className="max-w-7xl mx-auto px-6 lg:px-8 py-16">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             {/* Seção Logo */}
             <div className="space-y-4">
               <div className="flex items-center gap-2">
-                <span className="text-2xl font-bold text-purple-400">APV</span>
                 <span className="text-2xl font-bold text-gray-200">Método</span>
+                <span className="text-2xl font-bold text-purple-400">APV</span>
               </div>
               <p className="text-sm text-gray-400">
                 CNPJ: 58.586.596/0001-33<br />
@@ -165,7 +167,7 @@ export default function Home() {
             </div>
 
             {/* Links */}
-            <div className="space-y-4">
+            {/* <div className="space-y-4">
               <h5 className="text-sm font-semibold text-purple-400">Recursos</h5>
               <nav className="flex flex-col space-y-2">
                 <a href="#metodo" className="text-gray-400 hover:text-purple-300 transition-colors">
@@ -178,10 +180,10 @@ export default function Home() {
                   Planos
                 </a>
               </nav>
-            </div>
+            </div> */}
 
             {/* Legal */}
-            <div className="space-y-4">
+            {/* <div className="space-y-4">
               <h5 className="text-sm font-semibold text-purple-400">Jurídico</h5>
               <nav className="flex flex-col space-y-2">
                 <a href="#" className="text-gray-400 hover:text-purple-300 transition-colors">
@@ -194,7 +196,7 @@ export default function Home() {
                   Garantia
                 </a>
               </nav>
-            </div>
+            </div> */}
 
             {/* Contato */}
             <div className="space-y-4">
