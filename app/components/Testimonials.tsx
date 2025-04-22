@@ -6,26 +6,26 @@ import Image from "next/image"
     const testimonials = [
       {
         name: "Vithor Martins Silva",
-        role: "Ex-aluno, agora Front-end Jr @Avanti E-commerce",
+        role: "Ex-aluno, Front-end Jr na @Avanti E-commerce",
         text: "",
         photo: "https://media.licdn.com/dms/image/v2/D4D03AQE38eh1AplZUg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1708784708259?e=1747267200&v=beta&t=6FUykssFUwuriZT271HNqbSPHYoRAnmncvMvX1sAK5Q"
       },
       {
         name: "Thalles Fiscus",
-        role: "Analista de Sistemas @MasterCoin BR",
+        role: "Analista de Sistemas na @MasterCoin BR",
         text: "",
-        photo: "https://media.licdn.com/dms/image/v2/D4D03AQHbLMif514Oyw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1678993574677?e=1747267200&v=beta&t=3g230_ucRq1SF4COD124qYBa2JVmWQji1W6qf6u25fo"
+        photo: "https://media.licdn.com/dms/image/v2/D4D03AQFITiKVJOayrA/profile-displayphoto-shrink_800_800/B4DZZA_1pYGgAc-/0/1744847200141?e=1750896000&v=beta&t=w2vhfU9P8po9knkVZj4jrxMHZD__fpxFcOfDN5Fada8"
       },
       {
         name: "Jean Lima",
-        role: "Ex-aluno Full-stack @Falaê!",
+        role: "Ex-aluno Full-stack na @Falaê!",
         text: "",
-        photo: "https://media.licdn.com/dms/image/v2/D4D03AQEXNRpFhgfNBw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1730859438022?e=1747267200&v=beta&t=oe0pGHB3TRelDCmmSK6UURKFsv_L4T--WFAUkTNw5wA"
+        photo: "https://media.licdn.com/dms/image/v2/D4D03AQGincU1irB0IQ/profile-displayphoto-shrink_800_800/B4DZZBAghlGwAc-/0/1744847375145?e=1750896000&v=beta&t=ahf5j1f4xybMblP0_tuyi4gXXs5kuCqLogE71iA1NhQ"
       }
     ]
   
     return (
-      <div className="relative py-24 bg-gray-900" id="resultados">
+      <div className="relative py-2 " id="resultados">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-white mb-4">
@@ -79,7 +79,7 @@ import Image from "next/image"
             <p className="text-gray-400 text-sm">
               *Resultados reais de alunos que aplicaram o método corretamente
             </p>
-            <div className="mt-8 flex items-center justify-center space-x-4">
+            <div className="mt-2 flex items-center justify-center space-x-4">
               <div className="flex items-center">
                 {[1, 2, 3, 4, 5].map((i) => (
                   <svg
@@ -92,15 +92,15 @@ import Image from "next/image"
                   </svg>
                 ))}
               </div>
-              <span className="text-gray-300">4.9/5 baseado em diversas avaliações</span>
+              <span className="text-gray-300">4.85/5 baseado em avaliações</span>
             </div>
           </div>
         </div>
   
         {/* Elementos decorativos */}
         <div className="absolute inset-0 overflow-hidden">
-          <div className="absolute left-0 top-0 h-full w-1/3 bg-gradient-to-r from-[rgba(168,85,247,0.1)] to-transparent" />
-          <div className="absolute right-0 bottom-0 h-full w-1/3 bg-gradient-to-l from-[rgba(168,85,247,0.1)] to-transparent" />
+          <div className="absolute left-0 top-0 h-full w-1/3" />
+          <div className="absolute right-0 bottom-0 h-full w-1/3" />
         </div>
       </div>
     )

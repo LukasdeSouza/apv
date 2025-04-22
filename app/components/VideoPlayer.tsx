@@ -52,7 +52,7 @@ export default function VimeoPlayer() {
         <iframe
           id="vimeo-iframe"
           src="https://player.vimeo.com/video/1067207635?badge=0&autopause=0&autoplay=1&player_id=0&app_id=58479"
-          allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
+          allow="fullscreen; picture-in-picture; clipboard-write; encrypted-media"
           style={{
             position: 'absolute',
             top: 0,
