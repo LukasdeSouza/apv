@@ -15,7 +15,44 @@ const navigation = [
 ]
 
 export default function Home() {
+  const [email, setEmail] = useState('');
+  const [phone, setPhone] = useState('');
+  const [loading, setLoading] = useState(false);
+
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+  interface FormEvent {
+    preventDefault: () => void;
+  }
+
+  const onSubmitForm = async (e: FormEvent): Promise<any> => {
+    e.preventDefault();
+    setLoading(true);
+
+    let dataObj = {
+      email,
+      phone
+    }
+
+    try {
+      let response = await fetch('https://atendimento.codetech.software/webhook/webinar-programador', {
+        method: 'POST',
+        body: JSON.stringify(dataObj),
+        mode: 'no-cors',
+        headers: {
+          'Content-Type': 'application/json',
+          'X-Requested-With': 'XMLHttpRequest'
+        }
+      })
+      alert('Informações Salvas com Sucesso! Te espero no dia 11/05 as 9 da noite!')
+      // let result = await response.json();
+    } catch (error) {
+      // alert('erro ao salvar seus dados, tente novamente mais tarde')
+    }
+    finally {
+      setLoading(false);
+    }
+  }
 
 
   return (
@@ -92,7 +129,7 @@ export default function Home() {
                   <span className="block text-purple-400 text-lg mt-2">11/05 as 9 da noite - Últimas 28 vagas disponíveis</span>
                 </h3>
 
-                <form className="space-y-6">
+                <form className="space-y-6" onSubmit={onSubmitForm}>
                   <div>
                     <label htmlFor="email" className="block text-sm font-medium text-gray-300 mb-2">Seu melhor e-mail</label>
                     <input
@@ -100,6 +137,8 @@ export default function Home() {
                       id="email"
                       className="w-full px-4 py-3 bg-gray-900/50 border border-gray-700 rounded-lg text-white focus:ring-2 focus:ring-purple-500 focus:border-transparent"
                       placeholder="exemplo@email.com"
+                      value={email}
+                      onChange={(e) => setEmail(e.target.value)}
                     />
                   </div>
 
@@ -110,15 +149,18 @@ export default function Home() {
                       id="phone"
                       className="w-full px-4 py-3 bg-gray-900/50 border border-gray-700 rounded-lg text-white focus:ring-2 focus:ring-purple-500 focus:border-transparent"
                       placeholder="(11) 99999-9999"
+                      value={phone}
+                      onChange={(e) => setPhone(e.target.value)}
                     />
                   </div>
 
                   <button
                     type="submit"
+                    disabled={loading}
                     className="w-full py-4 px-6 bg-gradient-to-r from-purple-600 to-pink-500 text-white font-bold rounded-lg hover:from-purple-700 hover:to-pink-600 transition-all duration-300 flex items-center justify-center gap-2"
                   >
                     <ArrowRightIcon className="h-5 w-5" />
-                    Garantir Minha Vaga Agora
+                    {loading ? 'Salvando' : 'Garantir Minha Vaga Agora'}
                   </button>
 
                   <p className="text-center text-gray-400 text-sm mt-4">
